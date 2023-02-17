@@ -16,6 +16,7 @@
 // const prime = document.getElementById('prime');
 // console.log(prime);
 
+// Countdown Start
 
 let count = 0;
 // document.getElementById('plus').addEventListener('click', function (e) {
@@ -23,24 +24,24 @@ let count = 0;
 //     control('count')
 // })
 
-// function plus() {
-//     count++
-//     control('count')
-// }
+function plus() {
+    count++
+    control('count')
+}
 // document.getElementById('minus').addEventListener('click', function (e) {
 //     count--
 //     control('count')
 // })
 
-// function minus() {
-//     if (count == 0) {
-//         return
-//     } else {
-//         count--
-//         control('count')
-//     }
-// }
+function minus() {
+    if (count == 0) {
+        return
+    } else {
+        count--
+        control('count')
+    }
+}
 
-// function control(id) {
-//     document.getElementById(id).innerText = count;
-// }
+function control(id) {
+    document.getElementById(id).innerText = count;
+}
